@@ -1,0 +1,10 @@
+Version 0.0.12beta ##############################################
+- fixes logos download in some environnemnts (ie LibreElec Arm)
+- fixes non ASCII characters in channel names
+- default to channel name in custom search form
+
+Version 0.0.11beta ##############################################
+
+Version 0.0.6-beta ##############################################
+
+Version 0.0.5-beta ##############################################
