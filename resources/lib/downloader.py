@@ -72,6 +72,9 @@ class Downloader:
 		xbmc.sleep(500)
 		start_time = time.time()
 		try: 
+            ## ugly #######################
+            url=url.replace('https','http')
+            ################################
 			urllib.urlretrieve(url, path, lambda nb, bs, fs: self.dialogdown(name,nb, bs, fs, dp, start_time))
 			dp.close()
 			try: self.log=self.log+'[B]'+name+'[/B] : '+path+'\n'
